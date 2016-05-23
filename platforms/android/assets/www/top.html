@@ -1,0 +1,21 @@
+<ons-page ng-controller="CarouselController">
+    <ons-list-item class="list_item" ng-repeat="item in items">
+        <ons-carousel var="{{item.carousel}}" class="carousel" initial-index="1" auto-scroll>
+            <ons-carousel-item class="list_carousel_select">
+                <div class="flex">
+                    <div class="flex_bad flex_child" ng-click="bad($index)">Bad</div>
+                    <div class="flex_normal flex_child" ng-click="normal($index)">Normal</div>
+                    <div class="flex_good flex_child" ng-click="good($index)">Good</div>
+                </div>
+            </ons-carousel-item>
+            <ons-carousel-item class="list_carousel_item">
+                <div class="flex">
+                    <div class="image"></div>
+                    <div class="name">{{ item.name }}</div>
+                    <div status current-status="item.status" class="status" ng-click="click($index)"></div>
+                </div>
+            </ons-carousel-item>
+        </ons-carousel>
+    </ons-list-item>
+</ons-list>
+</ons-page>
