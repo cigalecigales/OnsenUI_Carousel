@@ -3,8 +3,10 @@
 If you click right end status area, you can change the status.
 
 ## operation
-* Initial display
-![list](wiki/_img/img01.png)
+* Initial display.
 
-* Click the right end status
-![open select menu](wiki/_img/img02.png)
+![list](https://github.com/cigalecigales/OnsenUI_Carousel/wiki/_img/img01.png)
+
+* Click the right end status, open carousel select menu.
+
+![open select menu](https://github.com/cigalecigales/OnsenUI_Carousel/wiki/_img/img02.png)
