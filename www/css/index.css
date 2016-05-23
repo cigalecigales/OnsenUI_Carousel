@@ -26,6 +26,7 @@
 .flex_child {
   height: 100%;
   flex: 1;
+  text-align: center;
 }
 .flex_bad {
   background: #F6D4D8;
